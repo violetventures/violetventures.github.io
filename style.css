@@ -1,0 +1,115 @@
+body
+{
+    padding: 0;
+    margin: 0;
+    background-color: #0A0B12;
+}
+header, #event
+{
+    display: flex;
+    justify-content: space-between;
+    background-color:#0A0B12;
+    padding: 1em;
+}
+header
+{
+    margin: 1em auto auto auto;
+    width: 90%;
+    height: 8vh;
+    justify-content: left;
+}
+#slushlogo
+{
+    height: 100%;
+}
+img
+{
+    object-fit: contain;
+    height: 100%;
+}
+
+#event, .content
+{
+    margin: auto;
+    width: 90%;
+}
+.menu
+{
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+}
+.menuitem
+{
+    padding: 1em;
+    color: white;
+    text-align: center;
+    vertical-align: middle;
+    font-family: "Knockout 71 Full Middlewt";
+}
+h1{
+    color: white;
+    font-family: "Knockout 71 Full Middlewt";
+}
+h3{
+    color: white;
+    font-family: "Knockout 51 Middleweight";
+}
+p{
+    color:lightgray;
+    font-family: "Knockout 31 Junior Middlewt";
+    font-size: 1.5em;
+}
+#big_image{
+    background: rgb(10,11,18);
+    background: linear-gradient(180deg, rgba(10,11,18,1) 30%, rgba(128,0,219,1) 100%);
+    height: 70vh; 
+}
+.big
+{
+    font-size: 6.5em;
+    line-height: 1em;
+}
+.inner_section_content
+{
+    padding: 3em;
+    padding-bottom: 5em;
+    margin: auto;
+    text-align: center;
+    width: 70%;
+}
+.section_title
+{
+    font-size: 5em;
+    margin: 0.2em;
+}
+.section_subtitle
+{
+    font-size: 2.5em;
+    margin: 0.2em;
+}
+.cool_button
+{
+    background: rgb(10,11,18);
+    background: linear-gradient(90deg, rgba(10,11,18,1) 0%, rgba(128,0,219,1) 50%, rgba(10,11,18,1) 100%);
+    font-family: "Knockout 51 Middleweight";
+    font-size: 2em;
+    margin: 0.5em;
+    padding: 0.4em 1.3em;
+    color: #0A0B12;
+    border: none
+}
+#tix
+{
+    width: 90%;
+}
+#tickets:hover
+{
+    text-align: center;
+    background-color: white;
+    color: black;
+}
+.tickets:hover
+{
+    color:black
+}
