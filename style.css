@@ -47,6 +47,9 @@ img
     vertical-align: middle;
     font-family: "Knockout 71 Full Middlewt";
 }
+.menuitem:hover{
+    color:rgba(128,0,219,1)
+}
 h1{
     color: white;
     font-family: "Knockout 71 Full Middlewt";
