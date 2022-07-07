@@ -116,3 +116,6 @@ p{
 #tix{
     margin: auto;
 }
+footer{
+    display: flex;
+}
