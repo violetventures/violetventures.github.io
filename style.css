@@ -10,23 +10,35 @@ header, #event
     justify-content: space-between;
     background-color:#0A0B12;
     padding: 1em;
+    align-items: center;
 }
 header
 {
     margin: 1em auto auto auto;
     width: 90%;
     height: 8vh;
-    justify-content: left;
+
 }
 #slushlogo
 {
     height: 100%;
+    margin-right: 1.5em;
 }
+
+#vv
+{
+    height: 70%;
+    margin-left: 1.5em;
+}
+
 img
 {
     object-fit: contain;
-    height: 100%;
+    max-width: 100%;
+    max-height: 100%;
+    display: block;
 }
+
 
 #event, .content
 {
@@ -38,17 +50,25 @@ img
     display: flex;
     justify-content: space-evenly;
     flex-direction: row;
+    vertical-align: middle;
+    align-items: center;
 }
 .menuitem
 {
-    padding: 1em;
+    display: inline;
+    margin: 0.5em;
+    padding: 0.4em 1.3em;
+    border: none;
+    background-color: #0A0B12;
     color: white;
     text-align: center;
     vertical-align: middle;
     font-family: "Knockout 71 Full Middlewt";
+    height: min-content;
+    font-size: large;
 }
 .menuitem:hover{
-    color:rgba(128,0,219,1)
+    color:rgba(140,82,246,1)
 }
 h1{
     color: white;
@@ -65,8 +85,10 @@ p{
 }
 #big_image{
     background: rgb(10,11,18);
-    background: linear-gradient(180deg, rgba(10,11,18,1) 30%, rgba(128,0,219,1) 100%);
-    height: 70vh; 
+    background: linear-gradient(180deg, rgba(10,11,18,1) 30%, rgba(140,82,246,1) 100%);
+    height: 82vh;
+    padding-top: 2em; 
+    position: relative;
 }
 .big
 {
@@ -93,14 +115,35 @@ p{
 }
 .cool_button
 {
-    background: rgb(10,11,18);
-    background: linear-gradient(90deg, rgba(10,11,18,1) 0%, rgba(128,0,219,1) 50%, rgba(10,11,18,1) 100%);
+    background: rgba(140,82,246,1);
     font-family: "Knockout 51 Middleweight";
     font-size: 2em;
     margin: 0.5em;
     padding: 0.4em 1.3em;
     color: #0A0B12;
     border: none
+}
+.fancybutton
+{   
+    background: rgb(95,155,248);
+    background: linear-gradient(41deg, rgba(95,155,248,1) 0%, rgba(140,82,246,1) 38%, rgba(140,82,246,1) 63%, rgba(236,91,186,1) 100%);
+    margin: 0.5em;
+    padding: 0.4em 1.3em;
+    color: #0A0B12;
+    border: none
+}
+
+@keyframes fancybutton_animation
+{
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+
+.fancybutton:hover
+{
+    color: white;
+    animation: fancybutton_animation ease 1s;
 }
 #tix
 {
@@ -122,3 +165,4 @@ p{
 footer{
     display: flex;
 }
+

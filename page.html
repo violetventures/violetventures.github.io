@@ -4,33 +4,34 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta charset="utf-8">
     <link href="style.css" rel="stylesheet">
+    <link href="carousel.css" rel="stylesheet">
     <link href="animations.css" rel="stylesheet">
     <link href="Fonts\stylesheet.css" rel="stylesheet">
-
 </head>
 <body>
     <header> 
         <!-- logos go here -->
-        <div id="slushlogo">
-            <img src="Assets/Slush'd_Logo negative.png">
-        </div> 
-        TODO PUT VIOLET VENTURES LOGO HERE
-    </header>
-    <section id="event">
-        <div>
-            <h1 class="title">Abu Dhabi, Month DD-DD 2022</p>
+        <div style="height: 8vh; display:flex; align-items:center;">
+            <div id="slushlogo">
+                <img src="Assets/Slush'd_Logo negative.png">
+            </div> 
+            <h1>x</h1>
+            <div id="vv">
+                <img src="Assets/vv.png">
+            </div>
         </div>
         <div class="menu">
-            <a href="#event_details"><div class="menuitem">EVENT</div></a>
-            <div class="menuitem">SPEAKERS</div>
-            <div class="menuitem">WHY ATTEND?</div>
-            <div class="menuitem">TICKETS</div>
-            <div class="menuitem">AGENDA</div>
-            <div class="menuitem">FAQ</div>
+            <button class="menuitem">EVENT</button>
+            <button class="menuitem">SPEAKERS</button>
+            <button class="menuitem">WHY ATTEND?</button>
+            <button class="menuitem">AGENDA</button>
+            <button class="menuitem">FAQ</button>
+            <button class="menuitem fancybutton">TICKETS</button>
         </div>
-    </section>
+    </header>   
     <section id="big_image">
             <div class="content">
+                <h1 class="title">Abu Dhabi, Month DD-DD 2022</p>
                 <h1 class="big">THIS IS SOME BIG TEXT YOU'LL HAVE TO FIGURE OUT WHAT TO PUT HERE</h1>
                 <h3>And some smaller text too. Also, instead of this purple thingy we should put your flashy promotional video/images or sth like that</h3>
             </div>
@@ -79,13 +80,93 @@
             <h1 class="section_title">SPEAKERS</h1>
             <p class="body">## people from diverse areas of business or whatever impressive text u wanna put here :)</p>
 
-            <div class="speaker_cards">
-                <div class="flipcard">
-
+            </div>
+    
+        <!-- image carousel -->
+        <div class="carousel">
+            <div class="carousel_inner">
+                <div class="card">
+                    <img src="people/Asset 10.png">
+                    <div class="overlay">
+                        <div class="description">
+                            <p class="name">
+                                Dr. Name
+                            </p>
+                            <p class="position">
+                                Big scary CEO
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="people/Asset 9.png">
+                    <div class="overlay">
+                        <div class="description">
+                            <p class="name">
+                                Dr. Name
+                            </p>
+                            <p class="position">
+                                Big scary CEO
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="people/Asset 12.png">
+                    <div class="overlay">
+                        <div class="description">
+                            <p class="name">
+                                Dr. Name
+                            </p>
+                            <p class="position">
+                                Big scary CEO
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="people/Asset 10.png">
+                    <div class="overlay">
+                        <div class="description">
+                            <p class="name">
+                                Dr. Name
+                            </p>
+                            <p class="position">
+                                Big scary CEO
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="people/Asset 10.png">
+                    <div class="overlay">
+                        <div class="description">
+                            <p class="name">
+                                Dr. Name
+                            </p>
+                            <p class="position">
+                                Big scary CEO
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="people/Asset 9.png">
+                    <div class="overlay">
+                        <div class="description">
+                            <p class="name">
+                                Dr. Name
+                            </p>
+                            <p class="position">
+                                Big scary CEO
+                            </p>
+                        </div>
+                    </div>
                 </div>
             </div>
-
         </div>
+        
+
     </section>
 
     <section id="why_attend">
@@ -93,13 +174,13 @@
             <h1 class="section_title">WHY ATTEND?</h1>
             <p class="body">We put together a platform for investors, entrepreneurs, and idk put something cute here too :)</p>
 
-            <div class="speaker_cards">
-                <div class="flipcard">
+            <div id="why_attend_inner">
+                <div class="longcard">
 
                 </div>
             </div>
-
         </div>
+
 
 
     </section>
@@ -112,21 +193,9 @@
     </section>
 
     <footer>
-        <div>
-
-        </div>
-        <div>
-            
-        </div>
-        <div>
-            
-        </div>
-        <div>
-            
-        </div>
     </footer>
 
-
+<script src="carousel.js"></script>
 </body>
 
 </html>

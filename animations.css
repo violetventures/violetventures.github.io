@@ -5,6 +5,8 @@
     max-width: 100%;
     overflow: hidden;
 }
+
+
 .scroll-text {
     white-space: nowrap;
     overflow: hidden;
@@ -19,11 +21,12 @@
 .scroll-text p {
   display: inline-block;
   font-family: "Knockout 71 Full Middlewt";
-    color: rgba(128,0,219,1);
+    color: rgba(140,82,246,1);
     font-size: 5em;
   margin: 0;
   margin-top: -0.2em;
 }
+
 
 @keyframes marquee {
   0% {
@@ -46,6 +49,7 @@
 
 .inverted
 {
-    -webkit-text-stroke: 2px rgba(128,0,219,1);
+    -webkit-text-stroke: 2px rgba(140,82,246,1);
     -webkit-text-fill-color: transparent;
 }
+
