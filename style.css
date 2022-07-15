@@ -126,11 +126,17 @@ p{
 .fancybutton
 {   
     background: rgb(95,155,248);
-    background: linear-gradient(41deg, rgba(95,155,248,1) 0%, rgba(140,82,246,1) 38%, rgba(140,82,246,1) 63%, rgba(236,91,186,1) 100%);
+    background: linear-gradient(41deg, rgba(95,155,248,1) 0%, rgba(140,82,246,1) 43%, rgba(140,82,246,1) 57%, rgba(236,91,186,1) 100%);
     margin: 0.5em;
     padding: 0.4em 1.3em;
     color: #0A0B12;
     border: none
+}
+
+.ticketbutton
+{
+    background: rgb(95,155,248);
+    background: linear-gradient(41deg, rgba(95,155,248,1) 0%, rgba(140,82,246,1) 43%, rgba(140,82,246,1) 57%, rgba(236,91,186,1) 100%);
 }
 
 @keyframes fancybutton_animation
