@@ -6,6 +6,7 @@
     <link href="style.css" rel="stylesheet">
     <link href="carousel.css" rel="stylesheet">
     <link href="animations.css" rel="stylesheet">
+    <link href="grids.css" rel="stylesheet">
     <link href="Fonts\stylesheet.css" rel="stylesheet">
 </head>
 <body>
@@ -21,17 +22,17 @@
             </div>
         </div>
         <div class="menu">
-            <button class="menuitem">EVENT</button>
-            <button class="menuitem">SPEAKERS</button>
-            <button class="menuitem">WHY ATTEND?</button>
-            <button class="menuitem">AGENDA</button>
-            <button class="menuitem">FAQ</button>
-            <button class="menuitem fancybutton">TICKETS</button>
+            <a href="#event_details"><button class="menuitem">EVENT</button></a>
+            <a href="#speakers"><button class="menuitem">SPEAKERS</button></a>
+            <a href="#why_attend"><button class="menuitem">WHY ATTEND?</button></a>
+            <a href="tbd"><button class="menuitem">AGENDA</button></a>
+            <a href="tbd"><button class="menuitem">FAQ</button></a>
+            <a href="tbd"><button class="menuitem fancybutton">TICKETS</button></a>
         </div>
     </header>   
     <section id="big_image">
             <div class="content">
-                <h1 class="title">Abu Dhabi, Month DD-DD 2022</p>
+                <h1 class="title">Abu Dhabi, October 29-30 2022</p>
                 <h1 class="big">THIS IS SOME BIG TEXT YOU'LL HAVE TO FIGURE OUT WHAT TO PUT HERE</h1>
                 <h3>And some smaller text too. Also, instead of this purple thingy we should put your flashy promotional video/images or sth like that</h3>
             </div>
@@ -41,13 +42,13 @@
     <section id="event_details">
     <!-- FLASHY SCROLLY TEXT -->
     <div id="flashy">
-        <div class="scroll-text"><p>SLUSH'd BY VIOLET VENTURES - ABU DHABI - DD MM</p> <p class="inverted"> SLUSH'd BY VIOLET VENTURES - ABU DHABI - DD MM</p><p> SLUSH'd BY VIOLET VENTURES - ABU DHABI - DD MM</p> <p class="inverted">SLUSH'd BY VIOLET VENTURES - ABU DHABI - DD MM</p></div>
+        <div class="scroll-text"><p>SLUSH'd BY VIOLET VENTURES - ABU DHABI - OCT 29-30  </p> <p class="inverted"> SLUSH'd BY VIOLET VENTURES - ABU DHABI - OCT 29-30  </p><p> SLUSH'd BY VIOLET VENTURES - ABU DHABI - OCT 29-30  </p> <p class="inverted">SLUSH'd BY VIOLET VENTURES - ABU DHABI - OCT 29-30  </p></div>
 
     </div>
     <!-- ACTUAL CONTENT -->
     <div class="inner_section_content">
-        <h1 class="section_title"> DATE AND TIME</h1>
-        <h1 class="section_subtitle">ABU DHABI, UAE</h2>
+        <h1 class="section_title"> OCTOBER 29-30 2022</h1>
+        <h1 class="section_subtitle">ABU DHABI, UAE</h1>
 
         <p class="body">An event you would not want to miss.</p>
         <p class="body">A super big amount of people and money.</p>
@@ -80,7 +81,7 @@
             <h1 class="section_title">SPEAKERS</h1>
             <p class="body">## people from diverse areas of business or whatever impressive text u wanna put here :)</p>
 
-            </div>
+        </div>
     
         <!-- image carousel -->
         <div class="carousel">
@@ -173,22 +174,35 @@
         <div class="inner_section_content">
             <h1 class="section_title">WHY ATTEND?</h1>
             <p class="body">We put together a platform for investors, entrepreneurs, and idk put something cute here too :)</p>
+        </div>
 
-            <!-- make this a wrappi flex container -->
-            <div id="why_attend_inner"> 
-                <div class="longcard">
-
+        <!-- make this a wrappi flex container -->
+        <div id="why_attend_inner" class="grid"> 
+            <div class="longcard" id="attendees">
+                <div class="overlay">
+                    <div class="description">
+                        <h1 class="section_subtitle">ATTENDEES</h1>
+                        <p class="body">Your chance to make it big.</p>
+                    </div>
                 </div>
-                <div class="longcard">
-                    
+            </div>
+            <div class="longcard" id="volunteers">
+                <div class="overlay">
+                    <div class="description">
+                        <h1 class="section_subtitle">VOLUNTEERS</h1>
+                        <p class="body">Be a part of a worldwide community of changemakers.</p>
+                    </div>
                 </div>
-                <div class="longcard">
-                    
+            </div>
+            <div class="longcard" id="investors">
+                <div class="overlay">
+                    <div class="description">
+                        <h1 class="section_subtitle">INVESTORS</h1>
+                        <p class="body">An unmatchable opportunity to make your money matter.</p>
+                    </div>
                 </div>
             </div>
         </div>
-
-
 
     </section>
     

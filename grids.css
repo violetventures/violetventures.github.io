@@ -1,0 +1,71 @@
+.grid{
+    display: grid;
+    column-gap: 2em;
+    margin: 1em;
+    row-gap: 3em;
+}
+
+@media screen and (max-width: 768px) {
+    .grid
+    {
+        grid-template-columns: 1fr;
+    }    
+}
+
+@media screen and (min-width: 769px) {
+    .grid
+    {
+        grid-template-columns: 1fr 1fr 1fr;
+    }    
+}
+
+.longcard
+{
+    width: 100%;
+    height: 50vh;
+}
+
+#attendees
+{
+    background-image: url("Assets/slushd\ attendees.jpeg");
+}
+
+#investors
+{
+    background-image: url("Assets/investors.jpg");
+}
+
+#volunteers
+{
+    background-image: url("Assets/volunteers.jpg");
+}
+
+#attendees, #investors, #volunteers {
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.longcard
+{
+    position: relative;
+}
+
+.longcard>.overlay>.description
+{
+    text-align:center;
+    width: 100%;
+    top: 55%;
+    padding: 0%;
+    padding-bottom: 2em;
+}
+
+.longcard>.overlay
+{
+    background-color: rgba(0,0,0,0.50);
+}
+
+.longcard>.overlay>.description>.body
+{
+    margin-left: 1em;
+    margin-right: 1em;
+}

@@ -172,3 +172,8 @@ footer{
     display: flex;
 }
 
+#big_image{
+    background-image: url("Assets/ppl nyuad.jpeg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
