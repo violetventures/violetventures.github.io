@@ -82,6 +82,7 @@ p{
     color:lightgray;
     font-family: "Knockout 31 Junior Middlewt";
     font-size: 1.5em;
+
 }
 #big_image{
     background: rgb(10,11,18);
@@ -118,7 +119,6 @@ p{
     background: rgba(140,82,246,1);
     font-family: "Knockout 51 Middleweight";
     font-size: 2em;
-    margin: 0.5em;
     padding: 0.4em 1.3em;
     color: #0A0B12;
     border: none
@@ -146,14 +146,10 @@ p{
     100%{background-position:0% 50%}
 }
 
-.fancybutton:hover
+.fancybutton:hover, .cool_button:hover
 {
     color: white;
     animation: fancybutton_animation ease 1s;
-}
-#tix
-{
-    width: 90%;
 }
 #tickets:hover
 {
@@ -166,10 +162,15 @@ p{
     color:black
 }
 #tix{
-    margin: auto;
+    margin: 4em auto;
+    width: 100%
 }
-footer{
-    display: flex;
+
+#tix .big{
+    margin: 0em 0.5em;
+}
+.tickets{
+    display: inline-block;
 }
 
 #big_image{
@@ -177,3 +178,5 @@ footer{
     background-size: cover;
     background-repeat: no-repeat;
 }
+
+

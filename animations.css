@@ -27,6 +27,13 @@
   margin-top: -0.2em;
 }
 
+/* USE ONLY IF FLASHY TEXT ON TOP OF BIG IMAGE */
+/* #big_image>#flashy>.scroll-text p.inverted {
+  -webkit-text-stroke: 2px white;
+    -webkit-text-fill-color: transparent;
+    margin-right: 2em;
+} */
+
 
 @keyframes marquee {
   0% {
