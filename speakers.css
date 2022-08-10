@@ -1,0 +1,20 @@
+#speakers-cover
+{
+    text-align: center;
+    margin-bottom: 6em;
+}
+
+#speakers-flex-container
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.card
+{
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
