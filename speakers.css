@@ -18,3 +18,29 @@
     background-repeat: no-repeat;
 }
 
+.super-overlay
+{
+    background-color: #0A0B12;
+    position: absolute;
+    top: 0;
+    height: 100%;
+    width: 100%;
+}
+
+.super-overlay-content
+{
+    display: grid;
+    width: 90%;
+    margin: 2em 2em;
+    grid-template-columns: 1fr 1fr;
+}
+
+.super-overlay-content .section_title
+{
+    margin: 0;
+}
+
+.hidden
+{
+    display: none;
+}
