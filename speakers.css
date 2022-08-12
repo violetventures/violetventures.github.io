@@ -50,4 +50,5 @@
 {
     background: linear-gradient(41deg, rgba(95,155,248,1) 0%, rgba(140,82,246,1) 43%, rgba(140,82,246,1) 57%, rgba(236,91,186,1) 100%);
     cursor: pointer;
+    text-align: center;
 }

@@ -74,14 +74,9 @@ p.name
 {
     color: white;
     font-family: "Knockout 51 Middleweight";
-    font-size: 2em;
-    line-height: 0;
+    font-size: 1.5em;
 }
 
-p.position
-{
-    line-height: 0;
-}
 
 #speakers>.inner_section_content, #why_attend>.inner_section_content
 {

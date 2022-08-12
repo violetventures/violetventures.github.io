@@ -109,3 +109,13 @@
 {
     background-image: url("Assets/ph2.jpg");
 }
+
+
+@media screen and (max-width: 500px) {
+    #photo1, #photo2
+    {
+        height: 40vh;
+    }    
+}
+    
+}
