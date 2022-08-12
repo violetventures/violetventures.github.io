@@ -13,7 +13,7 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
 </head>
 <body>
-    <header> 
+    <header class="desktop"> 
         <!-- logos go here -->
         <div style="height: 8vh; display:flex; align-items:center;">
             <div id="slushlogo">
@@ -33,6 +33,33 @@
             <a href="tbd"><button class="menuitem fancybutton">TICKETS</button></a>
         </div>
     </header>   
+
+    <header class="mobile">
+        <div id="logos" style="display: flex; align-items:center; margin: 1em;">
+            <div id="slushlogo">
+                <img src="Assets/Slush'd_Logo negative.png">
+            </div>
+            <h1>x</h1>
+            <div id="vv">
+                <img src="Assets/vv.png">
+            </div>
+        </div>
+        <div id="mobimenu">
+            <img id="openmenu" src="Icons/menu-burger.svg">
+            <img id="closemenu" class="hidden" src="Icons/cross.svg">
+        </div>
+
+
+        <div id="fullmenu" class="hidden">
+            <a href="#event_details"><div class="mobile-menuitem"> <h1 class="section_subtitle">EVENT</h1></div></a>
+            <a href="#speakers"><div class="mobile-menuitem"><h1 class="section_subtitle">SPEAKERS</h1></div></a>
+            <a href="#why_attend"><div class="mobile-menuitem"><h1 class="section_subtitle">WHY ATTEND?</h1></div></a>
+            <a href="agenda.html"><div class="mobile-menuitem"><h1 class="section_subtitle">AGENDA</h1></div></a>
+            <a href="faq.html"><div class="mobile-menuitem"><h1 class="section_subtitle">FAQ</h1></div></a>
+            <a href="tbd"><div class="mobile-menuitem fbutton"><h1 class="section_subtitle">TICKETS</h1></div></a>
+        </div>
+    </header>
+
     <section id="big_image" style="position: relative;">
             <div class="content">
                 <h1 class="title">Abu Dhabi, October 29-30 2022</p>
@@ -218,6 +245,7 @@
     </footer>
 
 <script src="cards.js"></script>
+<script src="menu.js"></script>
 </body>
 
 </html>
