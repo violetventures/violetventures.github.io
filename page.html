@@ -8,7 +8,9 @@
     <link href="animations.css" rel="stylesheet">
     <link href="grids.css" rel="stylesheet">
     <link href="Fonts\stylesheet.css" rel="stylesheet">
+    <link href="speakers.css" rel="stylesheet">
     <link rel="shortcut icon" href="assets/vv.png">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
 </head>
 <body>
     <header> 
@@ -104,88 +106,53 @@
 
         </div>
     
-        <!-- image carousel -->
-        <div class="carousel">
-            <div class="carousel_inner">
-                <div class="card">
-                    <img src="people/Asset 10.png">
-                    <div class="overlay">
-                        <div class="description">
-                            <p class="name">
-                                Dr. Name
-                            </p>
-                            <p class="position">
-                                Big scary CEO
-                            </p>
-                        </div>
-                    </div>
-                </div>
-                <div class="card">
-                    <img src="people/Asset 9.png">
-                    <div class="overlay">
-                        <div class="description">
-                            <p class="name">
-                                Dr. Name
-                            </p>
-                            <p class="position">
-                                Big scary CEO
-                            </p>
-                        </div>
-                    </div>
-                </div>
-                <div class="card">
-                    <img src="people/Asset 12.png">
-                    <div class="overlay">
-                        <div class="description">
-                            <p class="name">
-                                Dr. Name
-                            </p>
-                            <p class="position">
-                                Big scary CEO
-                            </p>
-                        </div>
-                    </div>
-                </div>
-                <div class="card">
-                    <img src="people/Asset 10.png">
-                    <div class="overlay">
-                        <div class="description">
-                            <p class="name">
-                                Dr. Name
-                            </p>
-                            <p class="position">
-                                Big scary CEO
-                            </p>
-                        </div>
-                    </div>
-                </div>
-                <div class="card">
-                    <img src="people/Asset 10.png">
-                    <div class="overlay">
-                        <div class="description">
-                            <p class="name">
-                                Dr. Name
-                            </p>
-                            <p class="position">
-                                Big scary CEO
-                            </p>
-                        </div>
-                    </div>
-                </div>
-                <div class="card">
-                    <img src="people/Asset 9.png">
-                    <div class="overlay">
-                        <div class="description">
-                            <p class="name">
-                                Dr. Name
-                            </p>
-                            <p class="position">
-                                Big scary CEO
-                            </p>
-                        </div>
+        <!-- images of 3 main speakers and a SEE MORE button -->
+        <div id="speakers-flex-container">
+            <div class="card" id="speaker1">
+                <div class="overlay">
+                    <div class="description">
+                        <p class="name">
+                            Dr. Name
+                        </p>
+                        <p class="position">
+                            Big scary CEO
+                        </p>
                     </div>
                 </div>
             </div>
+            <div class="card" id="speaker2">
+                <div class="overlay">
+                    <div class="description">
+                        <p class="name">
+                            Dr. Name
+                        </p>
+                        <p class="position">
+                            Big scary CEO
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="card" id="speaker3">
+                <div class="overlay">
+                    <div class="description">
+                        <p class="name">
+                            Dr. Name
+                        </p>
+                        <p class="position">
+                            Big scary CEO
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <a href="speakers.html">
+                <div class="card" id="seemore">
+                    <div class="description">
+                        <h1 class="big">
+                            SEE ALL
+                        </h1>
+                    </div>
+                </div>
+            </a>
         </div>
         
 
@@ -250,7 +217,7 @@
         <hr style="margin-bottom: 3em;">
     </footer>
 
-<script src="carousel.js"></script>
+<script src="cards.js"></script>
 </body>
 
 </html>

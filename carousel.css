@@ -5,9 +5,10 @@
     margin: 1em;
     position: relative;
     transition: 2s;
+    cursor: pointer;
 }
 
-.card:hover
+.card:hover, .longcard:hover
 {
     transform: scale(1.1) !important;
 }

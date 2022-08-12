@@ -4,6 +4,7 @@ body
     margin: 0;
     background-color: #0A0B12;
     overflow-x: hidden;
+    position: relative;
 }
 header, #event
 {
@@ -67,6 +68,7 @@ img
     font-family: "Knockout 71 Full Middlewt";
     height: min-content;
     font-size: large;
+    cursor: pointer;
 }
 .menuitem:hover{
     color:rgba(140,82,246,1)
@@ -124,7 +126,8 @@ p{
     font-size: 2em;
     padding: 0.4em 1.3em;
     color: #0A0B12;
-    border: none
+    border: none;
+    cursor: pointer;
 }
 .fancybutton
 {   
@@ -133,13 +136,15 @@ p{
     margin: 0.5em;
     padding: 0.4em 1.3em;
     color: #0A0B12;
-    border: none
+    border: none;
+    cursor: pointer;
 }
 
 .ticketbutton
 {
     background: rgb(95,155,248);
     background: linear-gradient(41deg, rgba(95,155,248,1) 0%, rgba(140,82,246,1) 43%, rgba(140,82,246,1) 57%, rgba(236,91,186,1) 100%);
+    cursor: pointer;
 }
 
 @keyframes fancybutton_animation
