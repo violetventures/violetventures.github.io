@@ -22,7 +22,7 @@
 .longcard
 {
     width: 100%;
-    height: 50vh;
+    height: 25vh;
     cursor: pointer;
     transition: 1s;
 }
@@ -56,7 +56,7 @@
 {
     text-align:center;
     width: 100%;
-    top: 55%;
+    top: 10%;
     padding: 0%;
     padding-bottom: 2em;
 }
