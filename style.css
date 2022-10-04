@@ -176,6 +176,11 @@ p{
     cursor: pointer;
 }
 
+.foldable p 
+{
+    text-align: justify;
+}
+
 @keyframes fancybutton_animation
 {
     0%{background-position:0% 50%}
@@ -319,5 +324,11 @@ p{
 .timeicon
 {
     width: 25%;
+}
+
+.foldable-title:hover
+{
+    background-color: rgb(32, 32, 32);
+    cursor: pointer;
 }
 
