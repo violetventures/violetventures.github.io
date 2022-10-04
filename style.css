@@ -59,8 +59,10 @@ p{
     color:lightgray;
     font-family: "Knockout 31 Junior Middlewt";
     
-
 }
+
+
+
 #big_image{
     background: rgb(10,11,18);
     background: linear-gradient(180deg, rgba(10,11,18,1) 30%, rgba(140,82,246,1) 100%);
@@ -307,4 +309,15 @@ p{
 
 /* mobile header */
 
+
+.clock
+{
+    display: flex;
+    justify-content: center;
+}
+
+.timeicon
+{
+    width: 25%;
+}
 

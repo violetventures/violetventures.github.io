@@ -34,7 +34,6 @@
     display: grid;
     width: 90%;
     margin: 2em 2em;
-    grid-template-columns: 1fr 1fr;
 }
 
 .super-overlay-content .section_title

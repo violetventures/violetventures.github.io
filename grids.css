@@ -2,7 +2,7 @@
     display: grid;
     column-gap: 2em;
     margin: 1em;
-    row-gap: 3em;
+    row-gap: 1em;
 }
 
 @media screen and (max-width: 760px) {
@@ -15,7 +15,7 @@
 @media screen and (min-width: 761px) {
     .grid
     {
-        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-columns: 1fr;
     }    
 }
 
