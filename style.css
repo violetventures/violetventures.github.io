@@ -332,7 +332,7 @@ p{
     cursor: pointer;
 }
 
-p.body a{
+p.body a, p.footer-text a{
     color: inherit;
     text-decoration: underline;
 }
