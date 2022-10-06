@@ -332,3 +332,8 @@ p{
     cursor: pointer;
 }
 
+p.body a{
+    color: inherit;
+    text-decoration: underline;
+}
+
